@@ -7,14 +7,15 @@ function App() {
         <div className="App">
             <header className="App-header">
                 <Navbar
-                    position="static" 
                     links={[
                         { Text: "Jacob Hunt", Href: "#pg1" },
-                        { Text: "Test Link 2", Href: "#pg1" },
-                        { Text: "Test Link 3", Href: "#pg2" },
+                        { Text: "Test Link 2", Href: "#pg2" },
+                        { Text: "Test Link 3", Href: "#pg3" },
                     ]}
                 />
-                <div id="pg1"></div>
+                <div id="pg1" style={{ height: "100vh", backgroundColor: "green" }}></div>
+                <div id="pg2" style={{ height: "100vh", backgroundColor: "blue" }}></div>
+                <div id="pg3" style={{ height: "100vh", backgroundColor: "red" }}></div>
             </header>
         </div>
     );

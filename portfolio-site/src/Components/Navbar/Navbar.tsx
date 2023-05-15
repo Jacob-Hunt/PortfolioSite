@@ -1,7 +1,12 @@
-// React documentation: https://reactjs.org/
+// Documentation: https://reactjs.org/
 import React from 'react';
 
+// Documentation: https://www.npmjs.com/package/react-scrollspy-navigation
+import ScrollSpy from 'react-scrollspy-navigation';
+
+// Data transfer object
 import LinkDTO from '../../DTOs/LinkDTO';
+
 
 // Stylesheet
 import styles from './Navbar.module.scss';
@@ -9,7 +14,6 @@ import styles from './Navbar.module.scss';
 export default class Navbar extends React.Component<
     // Declare props
     {
-        position?: "fixed" | "static" | "absolute" | "sticky" | "relative" | undefined,
         links?: LinkDTO[]
     },
     // Declare state
@@ -20,17 +24,20 @@ export default class Navbar extends React.Component<
     {
         return (
             <nav className={ styles.navbar }>
-            {
-                this.props.links?.map((link: LinkDTO, index: number) =>
-                    <a
-                        className={ styles.button }
-                        href={ link.Href }
-                        key={ "navbar-link-" + index }
-                    >
-                        { link.Text }
-                    </a>
-                )
-            }
+                <ScrollSpy className={ styles.active }>
+                {
+                    this.props.links?.map((link: LinkDTO, index: number) =>
+                        <a
+                            className={ styles.button }
+                            href={ link.Href }
+                            ref={ React.createRef() }
+                            key={ "navbar-link-" + index }
+                        >
+                            { link.Text }
+                        </a>
+                    )
+                }
+                </ScrollSpy>
             </nav>
         )
     };

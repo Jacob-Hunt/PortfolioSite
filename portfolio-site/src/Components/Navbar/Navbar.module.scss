@@ -6,18 +6,20 @@
     justify-content: flex-start;
     background-color: $background-primary;
     padding: 5px;
+    position: fixed;
+    width: 100%;
 
     .button {
         padding: 5px;
         text-decoration: none;
         color: $text-primary;
 
-        &:hover {
-            color: $text-highlight;
+        &.active {
+            background-color: $background-highlight;
         }
 
-        &:active {
-            background-color: $background-highlight;
+        &:hover {
+            color: $text-highlight;
         }
     }
 }
