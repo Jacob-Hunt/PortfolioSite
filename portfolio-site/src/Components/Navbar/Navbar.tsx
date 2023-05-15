@@ -20,6 +20,7 @@ export default class Navbar extends React.Component<
     {
         return (
             <AppBar position="static">
+                <div className="navbar-button-container">
                 {
                     this.props.links?.map((link: LinkDTO, index: number) =>
                         <Button
@@ -31,6 +32,7 @@ export default class Navbar extends React.Component<
                         </Button>
                     )
                 }
+                </div>
             </AppBar>
         )
     };

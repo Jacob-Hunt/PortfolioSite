@@ -7,11 +7,14 @@ function App() {
     return (
         <div className="App">
             <header className="App-header">
-                <Navbar links={[
-                    { Text: "Test Link 1", Href: "/" },
-                    { Text: "Test Link 2", Href: "/" },
-                    { Text: "Test Link 3", Href: "/" },
-                ]}/>
+                <Navbar
+                    position="static" 
+                    links={[
+                        { Text: "Test Link 1", Href: "/" },
+                        { Text: "Test Link 2", Href: "/" },
+                        { Text: "Test Link 3", Href: "/" },
+                    ]}
+                />
                 <img src={logo} className="App-logo" alt="logo" />
                 <p>
                     Edit <code>src/App.tsx</code> and save to reload.
