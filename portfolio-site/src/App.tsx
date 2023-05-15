@@ -1,5 +1,4 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 import Navbar from './Components/Navbar/Navbar';
 
@@ -10,23 +9,12 @@ function App() {
                 <Navbar
                     position="static" 
                     links={[
-                        { Text: "Test Link 1", Href: "/" },
-                        { Text: "Test Link 2", Href: "/" },
-                        { Text: "Test Link 3", Href: "/" },
+                        { Text: "Jacob Hunt", Href: "#pg1" },
+                        { Text: "Test Link 2", Href: "#pg1" },
+                        { Text: "Test Link 3", Href: "#pg2" },
                     ]}
                 />
-                <img src={logo} className="App-logo" alt="logo" />
-                <p>
-                    Edit <code>src/App.tsx</code> and save to reload.
-                </p>
-                <a
-                    className="App-link"
-                    href="https://reactjs.org"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                >
-                    Learn React
-                </a>
+                <div id="pg1"></div>
             </header>
         </div>
     );

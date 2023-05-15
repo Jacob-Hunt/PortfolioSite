@@ -1,4 +1,23 @@
-.navbar-button-container {
+@import "../../color-theme.scss";
+
+.navbar {
     display: flex;
     flex-direction: row;
+    justify-content: flex-start;
+    background-color: $background-primary;
+    padding: 5px;
+
+    .button {
+        padding: 5px;
+        text-decoration: none;
+        color: $text-primary;
+
+        &:hover {
+            color: $text-highlight;
+        }
+
+        &:active {
+            background-color: $background-highlight;
+        }
+    }
 }

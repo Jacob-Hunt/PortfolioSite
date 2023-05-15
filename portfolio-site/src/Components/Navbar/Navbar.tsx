@@ -1,10 +1,10 @@
 // React documentation: https://reactjs.org/
 import React from 'react';
 
-// Import MUI components
-// See documentation: https://mui.com/material-ui/
-import { AppBar, Button } from '@mui/material';
 import LinkDTO from '../../DTOs/LinkDTO';
+
+// Stylesheet
+import styles from './Navbar.module.scss';
 
 export default class Navbar extends React.Component<
     // Declare props
@@ -19,21 +19,19 @@ export default class Navbar extends React.Component<
     render(): React.ReactNode 
     {
         return (
-            <AppBar position="static">
-                <div className="navbar-button-container">
-                {
-                    this.props.links?.map((link: LinkDTO, index: number) =>
-                        <Button
-                            variant="contained"
-                            href={ link.Href }
-                            key={ "navbar-link-" + index }
-                        >
-                            { link.Text }
-                        </Button>
-                    )
-                }
-                </div>
-            </AppBar>
+            <nav className={ styles.navbar }>
+            {
+                this.props.links?.map((link: LinkDTO, index: number) =>
+                    <a
+                        className={ styles.button }
+                        href={ link.Href }
+                        key={ "navbar-link-" + index }
+                    >
+                        { link.Text }
+                    </a>
+                )
+            }
+            </nav>
         )
     };
 }
