@@ -5,20 +5,28 @@
     flex-direction: row;
     justify-content: flex-start;
     background-color: $background-primary;
-    padding: 5px;
+    font-size: 1rem;
+    padding: 9px 15px;
     position: fixed;
     width: 100%;
+    font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 
     .button {
-        padding: 5px;
+        padding: 8px 15px;
         text-decoration: none;
-        color: $text-primary;
+        color: $text-faded;
+        border-radius: 3px;
 
-        &.active {
-            background-color: $background-highlight;
+        &:first-child {
+            color: $text-primary;
         }
 
         &:hover {
+            color: $text-highlight;
+        }
+
+        &.active {
+            background-color: $background-highlight;
             color: $text-highlight;
         }
     }
