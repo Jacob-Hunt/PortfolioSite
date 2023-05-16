@@ -37,20 +37,11 @@
         height: 65%;
         padding: 100px 25px;
 
-        #about-header {
-            padding: 10px 20px;
-            align-self: center;
-
-            h1 {
-                margin: 0;
-            }
-        }
-
         #about-body {
             max-width: 600px;
             align-self: flex-end;
 
-            h2, ul {
+            h1, h2, ul {
                 margin: 0;
             }
 
