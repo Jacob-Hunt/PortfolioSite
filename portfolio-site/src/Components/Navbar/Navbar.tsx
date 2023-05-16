@@ -15,6 +15,7 @@ export default class Navbar extends React.Component<
     // Declare props
     {
         links?: LinkDTO[]
+        id?: string;
     },
     // Declare state
     {
@@ -23,7 +24,7 @@ export default class Navbar extends React.Component<
     render(): React.ReactNode 
     {
         return (
-            <nav className={ styles.navbar }>
+            <nav id={ this.props.id } className={ styles.navbar }>
                 <ScrollSpy className={ styles.active }>
                 {
                     this.props.links?.map((link: LinkDTO, index: number) =>

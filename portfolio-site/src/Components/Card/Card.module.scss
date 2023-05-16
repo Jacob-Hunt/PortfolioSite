@@ -1,0 +1,9 @@
+@import "../../color-theme.scss";
+
+.card {
+    font-family: "Times New Roman", Georgia, Serif;
+    background-color: $background-primary;
+    color: $text-primary;
+    border-radius: 5px;
+    padding: 25px;
+}
