@@ -1,5 +1,14 @@
+// Documentation: https://reactjs.org/
 import React from 'react';
+
+// Documentation: https://mui.com/material-ui/material-icons/
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import GitHubIcon from '@mui/icons-material/GitHub';
+
+// Stylesheet
 import './App.scss';
+
+// Components
 import Navbar from './Components/Navbar/Navbar';
 import Jumbotron from './Components/Jumbotron/Jumbotron';
 import Card from './Components/Card/Card';
@@ -82,6 +91,22 @@ function App() {
                         <hr />
                         <h4>Email: <a href="mailto:jacobhuntemail@gmail.com">jacobhuntemail@gmail.com</a></h4>
                         <h4>Phone: <a href="tel:5402233701">540-223-3701</a></h4>
+                        <div id="social-links-container">
+                            <a
+                                href="https://www.linkedin.com/in/jhweb/"
+                                className="icon-link"
+                                target="_blank"
+                            >
+                                <LinkedInIcon fontSize="large" />
+                            </a>
+                            <a
+                                href="https://github.com/Jacob-Hunt/"
+                                className="icon-link"
+                                target="_blank"
+                            >
+                                <GitHubIcon fontSize="large" />
+                            </a>
+                        </div>
                     </Card>
                 </div>
             </Jumbotron>
