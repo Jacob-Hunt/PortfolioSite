@@ -41,13 +41,18 @@
             max-width: 600px;
             align-self: flex-end;
 
-            h1, h2, ul {
-                margin: 0;
-            }
-
             hr {
                 margin: 15px 0px 8px 0px;
             }
         }
+    }
+}
+
+#pg4 {
+    #contact-container {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        padding: 150px;
     }
 }

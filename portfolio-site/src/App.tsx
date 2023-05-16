@@ -75,6 +75,14 @@ function App() {
                 id="pg4"
                 backgroundUrl={ imageCDNBaseURL + "v1499201445/inkwell_xhyvy6.jpg" }
             >
+                <div id="contact-container">
+                    <Card id="contact-card">
+                        <h1>Contact</h1>
+                        <hr />
+                        <h4>Email: <a href="mailto:jacobhuntemail@gmail.com">jacobhuntemail@gmail.com</a></h4>
+                        <h4>Phone: <a href="tel:5402233701">540-223-3701</a></h4>
+                    </Card>
+                </div>
             </Jumbotron>
         </div>
     );
