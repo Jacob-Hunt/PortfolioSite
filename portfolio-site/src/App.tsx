@@ -70,7 +70,7 @@ function App() {
                         <h2>Skills</h2>
                         <ul>
                             <li>Languages: Assembly (ARM, x86), C, C++, C#, HTML/CSS/SASS, Java, JavaScript, PLC Languages (LL, ST, FBD), Python, SQL, Typescript</li>
-                            <li>Frameworks: .NET MVC, Express, Node, PostgreSQL, React, Vue</li>
+                            <li>Frameworks: .NET, Express, Node, PostgreSQL, React, Vue</li>
                             <li>General: Agile Development, Team Leadership, Full-Stack Web Development, Relational Database Management Systems, Programmable Logic Controllers, Electronic Circuits</li>
                         </ul>
                     </Card>
