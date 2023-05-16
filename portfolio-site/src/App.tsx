@@ -80,6 +80,14 @@ function App() {
                 id="pg3"
                 backgroundUrl={ imageCDNBaseURL + "v1499200671/railway_qz0yku.jpg" }
             >
+                <div id="portfolio-container">
+                    <Card id="portfolio-header">
+                        <h1>Portfolio</h1>
+                    </Card>
+                    <div id="portfolio-items">
+
+                    </div>
+                </div>
             </Jumbotron>
             <Jumbotron
                 id="pg4"
