@@ -42,6 +42,32 @@ function App() {
                 id="pg2"
                 backgroundUrl={ imageCDNBaseURL + "v1499223502/home_office_ky7uxc.jpg" }
             >
+                <div id="about-container">
+                    <Card id="about-header">
+                        <h1>About</h1>
+                    </Card>
+                    <Card id="about-body">
+                        <h2>Education</h2>
+                        <ul>
+                            <li>University of Toledo: BS Computer Science and Engineering (Summa Cum Laude)</li>
+                            <li>Lorain County Community College: AS Science (with Honors)</li>
+                        </ul>
+                        <hr />
+                        <h2>Experience</h2>
+                        <ul>
+                            <li>Emerson Professional Tools: Software Engineering Co-Op (May 2022 - Aug. 2022)</li>
+                            <li>Emerson Professional Tools: Web Development Co-Op (Aug. 2021 - Jan. 2022)</li>
+                            <li>Ridge Tool Company: Software Solutions Co-Op (Aug. 2020 - Jan. 2021)</li>
+                        </ul>
+                        <hr />
+                        <h2>Skills</h2>
+                        <ul>
+                            <li>Languages: Assembly (ARM, x86), C, C++, C#, HTML/CSS/SASS, Java, JavaScript, PLC Languages (LL, ST, FBD), Python, SQL, Typescript</li>
+                            <li>Frameworks: .NET MVC, Express, Node, PostgreSQL, React, Vue</li>
+                            <li>General: Agile Development, Team Leadership, Full-Stack Web Development, Relational Database Management Systems, Programmable Logic Controllers, Electronic Circuits</li>
+                        </ul>
+                    </Card>
+                </div>
             </Jumbotron>
             <Jumbotron
                 id="pg3"
