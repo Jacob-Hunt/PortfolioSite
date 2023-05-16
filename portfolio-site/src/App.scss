@@ -1,9 +1,5 @@
-#navbar {
-    height: 45px;
-}
-
 #pg1 {
-    padding: 95px 45px 45px 45px;
+    padding: 45px 95px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -12,5 +8,23 @@
 
 #cover-container {
     display: flex;
+    flex-direction: row;
     align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 45px;
+    height: 80%;
+    width: 100%;
+}
+
+#header-card {
+    max-width: 380px;
+    align-self: flex-start;
+}
+
+#portrait {
+    width: 250px;
+    height: 250px;
+    align-self: center;
+    border-radius: 50%;
 }

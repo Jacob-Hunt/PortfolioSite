@@ -21,8 +21,8 @@ function App() {
                 id="pg1"
                 backgroundUrl={ imageCDNBaseURL + "v1499222722/black-and-white-waves-close-up-view-circle_ubdnpp.jpg" }
             >
-                <div className="cover-container">
-                    <Card id="header">
+                <div id="cover-container">
+                    <Card id="header-card">
                         <h1>Jacob Hunt</h1>
                         <hr />
                         <h4>
@@ -31,6 +31,11 @@ function App() {
                             experiences, and writing well-organized, readable, and maintainable code.
                         </h4>
                     </Card>
+                    <img
+                        src={ imageCDNBaseURL + "v1499209733/portrait-cropped_e61bxi.jpg" }
+                        alt="Portrait"
+                        id="portrait"
+                    />
                 </div>
             </Jumbotron>
             <Jumbotron
