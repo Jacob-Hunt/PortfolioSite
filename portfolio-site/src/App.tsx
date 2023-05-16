@@ -3,6 +3,7 @@ import './App.scss';
 import Navbar from './Components/Navbar/Navbar';
 import Jumbotron from './Components/Jumbotron/Jumbotron';
 import Card from './Components/Card/Card';
+import Footer from './Components/Footer/Footer';
 
 function App() {
     const imageCDNBaseURL: string = "http://res.cloudinary.com/dct9np835/image/upload/";
@@ -84,6 +85,7 @@ function App() {
                     </Card>
                 </div>
             </Jumbotron>
+            <Footer />
         </div>
     );
 }
