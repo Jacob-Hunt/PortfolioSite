@@ -1,0 +1,16 @@
+.aboutContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 65%;
+    padding: 100px 25px;
+
+    .aboutBody {
+        max-width: 600px;
+        align-self: flex-end;
+
+        hr {
+            margin: 15px 0px 8px 0px;
+        }
+    }
+}

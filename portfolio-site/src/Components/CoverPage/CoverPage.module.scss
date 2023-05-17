@@ -1,0 +1,23 @@
+.coverContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 45px;
+    height: 80%;
+    width: 100%;
+
+    .headerCard {
+        max-width: 380px;
+        align-self: flex-start;
+    }
+    
+    .portrait {
+        width: 250px;
+        height: 250px;
+        align-self: center;
+        border-radius: 50%;
+        box-shadow: 2px 2px 5px black;
+    }
+}

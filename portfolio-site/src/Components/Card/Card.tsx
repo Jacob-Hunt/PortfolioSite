@@ -9,6 +9,7 @@ export default class Card extends React.Component<
     {
         children?: React.ReactNode;
         id?: string;
+        className?: string;
     },
     // Declare state
     {
@@ -17,7 +18,7 @@ export default class Card extends React.Component<
     render(): React.ReactNode 
     {
         return (
-            <div id={ this.props.id } className={ styles.card }>
+            <div id={ this.props.id } className={ styles.card + " " + this.props.className}>
                 { this.props.children }
             </div>
         )
