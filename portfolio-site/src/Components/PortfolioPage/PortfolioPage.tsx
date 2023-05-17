@@ -9,6 +9,7 @@ import styles from "./PortfolioPage.module.scss";
 
 // Components
 import Card from "../Card/Card";
+import PortfolioProjectCard from '../PortfolioProjectCard/PortfolioProjectCard';
 
 // Constants
 import { ImageCDNBaseURL } from '../../constants';
@@ -48,6 +49,12 @@ export default class PortfolioPage extends React.Component<
                 </Card>
 
                 <div className={ styles.portfolioItems }>
+                    <PortfolioProjectCard
+                        thumbnailURL={ ImageCDNBaseURL + "v1684364958/portfolio-site_ucqoee.jpg" }
+                        label="Portfolio Page"
+                        description="Lorum ipsum dolor set amet lorum ipsum dolor set amet lorum ipsum dolor set amet lorum ipsum dolor set amet"
+                        onClick={ () => this.setState({ CurrentOpenProject: Project.PORTFOLIO_SITE })}
+                    />
                     <Button
                         onClick={() => this.setState({ CurrentOpenProject: Project.PORTFOLIO_SITE })}
                         variant="contained"

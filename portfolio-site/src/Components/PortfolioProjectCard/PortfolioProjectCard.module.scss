@@ -1,0 +1,46 @@
+@import "../../color-theme.scss";
+
+.portfolioProjectCard {
+    font-family: "Times New Roman", Georgia, Serif;
+    color: $text-primary;
+    border-radius: 5px;
+    border: 1px solid black;
+    box-shadow: 2px 2px 5px black;
+    background-color: white;
+    max-width: 320px;
+
+    &:hover {
+        cursor: pointer;
+        h4 {
+            text-decoration: underline;
+        }
+    }
+
+    h4 {
+        margin: 0;
+        text-align: center;
+    }
+
+    p {
+        margin: 0;
+    }
+
+    .thumbnailContainer {
+        height: 200px;
+        background-size: cover;
+    }
+
+    .labelBanner {
+        padding: 5px;
+        background-color: $background-primary;
+    }
+
+    .descriptionBox {
+        display: flex;
+        flex-direction: column;
+        height: 100px;
+        justify-content: center;
+        text-align: center;
+        padding: 5px 10px;   
+    }
+}
