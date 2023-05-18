@@ -55,24 +55,18 @@ export default class PortfolioPage extends React.Component<
                         description="Lorum ipsum dolor set amet lorum ipsum dolor set amet lorum ipsum dolor set amet lorum ipsum dolor set amet"
                         onClick={ () => this.setState({ CurrentOpenProject: Project.PORTFOLIO_SITE })}
                     />
-                    <Button
-                        onClick={() => this.setState({ CurrentOpenProject: Project.PORTFOLIO_SITE })}
-                        variant="contained"
-                    >
-                        PORTFOLIO SITE
-                    </Button>
-                    <Button
-                        onClick={() => this.setState({ CurrentOpenProject: Project.FLOOD_MAP })}
-                        variant="contained"
-                    >
-                        REAL-TIME FLOOD MAP
-                    </Button>
-                    <Button
-                        onClick={() => this.setState({ CurrentOpenProject: Project.SOFTWARE_ENGINEERING })}
-                        variant="contained"
-                    >
-                        SOFTWARE ENGINEERING TERM PROJECT
-                    </Button>
+                    <PortfolioProjectCard
+                        thumbnailURL={ ImageCDNBaseURL + "v1684375215/flood-map-screenshot_nb2pcd.jpg" }
+                        label="Real-Time Flood Map"
+                        description="Lorum ipsum dolor set amet lorum ipsum dolor set amet lorum ipsum dolor set amet lorum ipsum dolor set amet"
+                        onClick={ () => this.setState({ CurrentOpenProject: Project.FLOOD_MAP })}
+                    />
+                    <PortfolioProjectCard
+                        thumbnailURL={ ImageCDNBaseURL + "v1500522859/scripts_thumbnail_wb81kg.jpg" }
+                        label="Software Engineering Term Project"
+                        description="Lorum ipsum dolor set amet lorum ipsum dolor set amet lorum ipsum dolor set amet lorum ipsum dolor set amet"
+                        onClick={ () => this.setState({ CurrentOpenProject: Project.FLOOD_MAP })}
+                    />
                 </div>
 
                 <Dialog

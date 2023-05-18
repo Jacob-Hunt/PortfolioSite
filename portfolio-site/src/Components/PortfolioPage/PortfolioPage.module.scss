@@ -4,4 +4,10 @@
     align-items: center;
     gap: 100px;
     padding: 50px;
+
+    .portfolioItems {
+        display: flex;
+        flex-direction: row;
+        gap: 15px;
+    }
 }
