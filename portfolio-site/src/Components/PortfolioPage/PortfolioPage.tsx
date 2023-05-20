@@ -52,19 +52,26 @@ export default class PortfolioPage extends React.Component<
                     <PortfolioProjectCard
                         thumbnailURL={ ImageCDNBaseURL + "v1684364958/portfolio-site_ucqoee.jpg" }
                         label="Portfolio Page"
-                        description="Lorum ipsum dolor set amet lorum ipsum dolor set amet lorum ipsum dolor set amet lorum ipsum dolor set amet"
+                        description="The website that you are currently viewing. A static site built using ReactJS, NodeJS, and TypeScript."
                         onClick={ () => this.setState({ CurrentOpenProject: Project.PORTFOLIO_SITE })}
                     />
                     <PortfolioProjectCard
                         thumbnailURL={ ImageCDNBaseURL + "v1684375215/flood-map-screenshot_nb2pcd.jpg" }
                         label="Real-Time Flood Map"
-                        description="Lorum ipsum dolor set amet lorum ipsum dolor set amet lorum ipsum dolor set amet lorum ipsum dolor set amet"
+                        description={`
+                            A web application that gathers real-time data from sonar-based water-level
+                            sensors and integrates them with topographic map data to create a weather
+                            map of water levels during flood events.
+                        `}
                         onClick={ () => this.setState({ CurrentOpenProject: Project.FLOOD_MAP })}
                     />
                     <PortfolioProjectCard
                         thumbnailURL={ ImageCDNBaseURL + "v1500522859/scripts_thumbnail_wb81kg.jpg" }
                         label="Software Engineering Term Project"
-                        description="Lorum ipsum dolor set amet lorum ipsum dolor set amet lorum ipsum dolor set amet lorum ipsum dolor set amet"
+                        description={
+                            `A console-based C# application with an integrated Microsoft SQL
+                             Server database to simulate a hotel reservation system.`
+                        }
                         onClick={ () => this.setState({ CurrentOpenProject: Project.FLOOD_MAP })}
                     />
                 </div>
