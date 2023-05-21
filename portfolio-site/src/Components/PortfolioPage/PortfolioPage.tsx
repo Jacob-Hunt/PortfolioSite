@@ -72,7 +72,7 @@ export default class PortfolioPage extends React.Component<
                             `A console-based C# application with an integrated Microsoft SQL
                              Server database to simulate a hotel reservation system.`
                         }
-                        onClick={ () => this.setState({ CurrentOpenProject: Project.FLOOD_MAP })}
+                        onClick={ () => this.setState({ CurrentOpenProject: Project.SOFTWARE_ENGINEERING })}
                     />
                 </div>
 
