@@ -87,8 +87,8 @@ export default class PortfolioPage extends React.Component<
                     </DialogTitle>
                     <DialogContent dividers>
                         <p>
-                            This static site is built using ReactJS, TypeScript, and NodeJS,
-                            showcasing my skills in designing and developing responsive, scrollable,
+                            This static site is built using ReactJS, TypeScript, and NodeJS, and
+                            showcases my skills in designing and developing responsive, scrollable,
                             and engaging user interfaces for web applications. With a mobile-first
                             approach, the scrolling UI provides a seamless experience across
                             devices, ensuring comfortable navigation on mobile, tablet, and desktop
@@ -102,14 +102,14 @@ export default class PortfolioPage extends React.Component<
                                 rel="noreferrer"
                             >
                                 GitHub repository
-                            </a>. I refactored major sections and UI elements into reusable React
-                            components so as to maximize code modularity and reusability. In addition,
-                            to maintain a consistent and organized structure, I've employed SCSS modules for
-                            styling and tightly associated them with the component templates.
-                            While developing, I incorporated third-party modules like Material UI and ScrollSpy,
-                            allowing for faster development without compromising the original UX
-                            design. This modular approach significantly improved development
-                            efficiency and scalability while ensuring a cohesive user interface.
+                            </a>. I refactored major sections and UI elements into React components so as to
+                            maximize code modularity and reusability. In addition, to maintain a consistent
+                            and organized structure, I've employed SCSS modules for styling and tightly
+                            associated them with the component templates. While developing, I incorporated
+                            third-party modules like Material UI and ScrollSpy, allowing for faster
+                            development without compromising the original UX design. This modular approach
+                            significantly improved development efficiency and scalability while ensuring a
+                            cohesive user interface.
                         </p>
                     </DialogContent>
                     <DialogActions>
@@ -130,39 +130,41 @@ export default class PortfolioPage extends React.Component<
                         <p>
                             For my senior design project at university, I had the privilege of
                             leading a team of talented student developers in creating a groundbreaking
-                            prototype. Our goal was to design a technology system that seamlessly
-                            combined data from a network of solar-powered water level sensors with an
-                            open-source topographic dataset, resulting in a real-time weather map of
-                            floodwater levels. As the team lead, I took on multiple responsibilities,
-                            including facilitating meetings, fostering collaboration, and overseeing
-                            project management tools like Kanban and GitHub for source control.
+                            prototype for a technology system that combines data from a network of
+                            solar-powered water level sensors with an open-source topographic dataset
+                            in order to generate a real-time weather map of floodwater levels. As the
+                            team lead, I took on multiple responsibilities, including facilitating
+                            meetings, fostering collaboration, and overseeing project management tools
+                            like Kanban and GitHub for source control.
                         </p>
                         <p>
-                            One of my primary focuses was implementing the web application component
-                            of the project, and to achieve this, I leveraged the power of the PERN stack
-                            (PostgreSQL, Express, React, and Node) along with TypeScript and SCSS. The
-                            core of our application was a RESTful ExpressJS API, serving as the vital
-                            link between the PostgreSQL database and the web application. This API
-                            provided seamless integration for the sensor modules to transmit water level
-                            readings to the database via HTTP requests. On the front end, I utilized
-                            React to build an intuitive and interactive user interface, incorporating
-                            map components using Leaflet.js and React-Leaflet and utilizing Material UI
-                            components to ensure a polished and cohesive design. Emphasizing responsiveness,
-                            all frontend pages were fully optimized for mobile devices using CSS Flexbox
-                            to dynamically adapt UI components based on screen dimensions. Efficient page
-                            routing was achieved through the implementation of React Router. Furthermore,
+                            In addition to my duties as team lead, I was responsible for implementing
+                            the web application component of the project and, to achieve this, I utilized
+                            a PERN stack (PostgreSQL, Express, React, and Node) along with TypeScript and
+                            SCSS. On the front end, I utilized React to build an intuitive and interactive
+                            user interface, incorporating map components using Leaflet.js and React-Leaflet
+                            and utilizing Material UI components to ensure a polished and cohesive design.
+                            Emphasizing responsiveness, all frontend pages were fully optimized for mobile
+                            devices using CSS Flexbox to dynamically adapt UI components based on screen
+                            dimensions. Efficient page routing was achieved through the implementation of
+                            React Router. The core of the web application was a RESTful ExpressJS API,
+                            serving as the vital link between the PostgreSQL database, the React front end,
+                            and the water level sensor modules. This API provided seamless integration for
+                            the sensor modules to transmit water level readings to the database via HTTP
+                            requests, as well as for the React server to obtain these readings. Finally,
                             to ensure cross-platform compatibility, I containerized the PERN application
-                            using Docker, enabling seamless collaboration across various team members'
-                            devices.
+                            using Docker, thereby facilitating collaboration across various team members'
+                            devices while reducing the chances of platform-specific hurdles.
                         </p>
                         <p>
-                            Throughout this project, I exemplified my ability to lead a team effectively,
+                            I believe that this project exemplifies my ability to lead a team effectively,
                             foster collaboration, and deliver a functional and visually appealing web
-                            application. The combination of my technical expertise in the PERN stack, React,
+                            application. The combination of my technical proficiency in the PERN stack, React,
                             Leaflet.js, and Material UI allowed me to create an intuitive user experience
-                            that, if implemented at scale, would provide life-saving flood information in
-                            a highly accessible manner. I am immensely proud of the achievements we made
-                            as a team and the impact our prototype has the potential to make.
+                            that, if implemented at scale, could have the ability to provide life-saving
+                            flood information in a highly accessible manner. I am immensely proud of the
+                            achievements we made as a team and the impact that our prototype has the potential
+                            to make.
                         </p>
                     </DialogContent>
                     <DialogActions>
