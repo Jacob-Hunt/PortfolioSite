@@ -11,9 +11,6 @@ import styles from "./ContactPage.module.scss";
 // Components
 import Card from "../Card/Card";
 
-// Constants
-import { ImageCDNBaseURL } from '../../constants';
-
 export default class ContactPage extends React.Component<
     // Declare props
     {
@@ -36,6 +33,7 @@ export default class ContactPage extends React.Component<
                             href="https://www.linkedin.com/in/jhweb/"
                             className={ styles.iconLink }
                             target="_blank"
+                            rel="noreferrer"
                         >
                             <LinkedInIcon fontSize="large" />
                         </a>
@@ -43,6 +41,7 @@ export default class ContactPage extends React.Component<
                             href="https://github.com/Jacob-Hunt/"
                             className={ styles.iconLink }
                             target="_blank"
+                            rel="noreferrer"
                         >
                             <GitHubIcon fontSize="large" />
                         </a>

@@ -7,7 +7,6 @@ import ScrollSpy from 'react-scrollspy-navigation';
 // Data transfer object
 import LinkDTO from '../../DTOs/LinkDTO';
 
-
 // Stylesheet
 import styles from './Navbar.module.scss';
 

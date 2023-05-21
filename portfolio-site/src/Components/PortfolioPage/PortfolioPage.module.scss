@@ -11,3 +11,15 @@
         gap: 15px;
     }
 }
+
+.portfolioItemDialog {
+    a {
+        color: blue;
+        &:active {
+            color: red;
+        }
+        &:visited {
+            color: purple;
+        }
+    }
+}
