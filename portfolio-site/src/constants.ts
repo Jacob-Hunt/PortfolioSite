@@ -1,1 +1,1 @@
-export const ImageCDNBaseURL: string = "http://res.cloudinary.com/dct9np835/image/upload/";
+export const ImageCDNBaseURL: string = "https://res.cloudinary.com/dct9np835/image/upload/";
