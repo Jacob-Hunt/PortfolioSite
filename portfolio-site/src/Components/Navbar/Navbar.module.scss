@@ -50,7 +50,7 @@
     flex-direction: column;
     gap: 5px;
     background-color: $background-primary;
-    width: 100vw;
+    width: 100%;
     position: absolute;
     top: 0;
     left: 0;
@@ -67,8 +67,16 @@
     }
 
     .closeIconContainer {
+        padding: 10px 10px 0px 13px;
+
         .closeIcon {
-            padding: 11px;
+            padding: 4px 5px 5px 5px;
+            border-radius: 3px;
+            border: 2px $background-primary solid;
+
+            &:active {
+                border: 2px $text-highlight solid;
+            }
         }
     }
 }
