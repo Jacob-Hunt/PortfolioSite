@@ -6,6 +6,17 @@
     align-items: flex-end;
     padding: 150px;
 
+    @media screen and (max-width: 694px) {
+        padding: 150px 15px;
+        align-items: center;
+    }
+
+    @media screen and (max-width: 425px) {
+        h4 {
+            font-size: 1.3rem;
+        }
+    }
+
     .socialLinksContainer {
         display: flex;
         flex-direction: row;
