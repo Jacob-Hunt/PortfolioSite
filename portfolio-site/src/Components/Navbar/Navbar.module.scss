@@ -32,4 +32,27 @@
             color: $text-highlight;
         }
     }
+
+    .menuIcon {
+        color: $text-faded;
+        border-radius: 3px;
+        padding: 4px 5px 0 5px;
+        border: 2px $background-primary solid;
+
+        &:active {
+            border: 2px $text-highlight solid;
+        }
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .hideOnSmallScreens {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 401px) {
+    .showOnSmallScreens {
+        display: none;
+    }
 }
