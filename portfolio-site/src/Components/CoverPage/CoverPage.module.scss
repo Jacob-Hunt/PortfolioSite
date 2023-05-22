@@ -6,7 +6,7 @@
     flex-wrap: wrap;
     padding: 105px 95px;
     gap: 45px;
-    height: 100vh;
+    min-height: 100vh;
 
     @media screen and (max-width: 920px) {
         flex-direction: column;
