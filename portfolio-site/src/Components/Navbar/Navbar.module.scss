@@ -45,6 +45,34 @@
     }
 }
 
+.navDialog {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    background-color: $background-primary;
+    width: 100vw;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-bottom: 1px solid black;
+
+    .navDialogButton {
+        padding: 15px;
+        color: $text-primary;
+
+        &.active {
+            background-color: $background-highlight;
+            color: $text-highlight;
+        }
+    }
+
+    .closeIconContainer {
+        .closeIcon {
+            padding: 11px;
+        }
+    }
+}
+
 @media screen and (max-width: 400px) {
     .hideOnSmallScreens {
         display: none;
