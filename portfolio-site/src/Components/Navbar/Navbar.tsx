@@ -2,7 +2,7 @@
 import React from 'react';
 
 // Documentation: https://mui.com/material-ui/
-import { Fade } from '@mui/material';
+import { Slide } from '@mui/material';
 
 // Documentation: https://www.npmjs.com/package/react-scrollspy-navigation
 import ScrollSpy from 'react-scrollspy-navigation';
@@ -60,7 +60,7 @@ export default class Navbar extends React.Component<
                 >
                     <MenuIcon />
                 </span>
-                <Fade in={ this.state.isNavDialogOpen } timeout={0} >
+                <Slide in={ this.state.isNavDialogOpen } timeout={ 300 } >
                     <div className={ styles.navDialog }>
                         <div
                             className={ styles.closeIconContainer }
@@ -84,7 +84,7 @@ export default class Navbar extends React.Component<
                         }
                         </ScrollSpy>
                     </div>
-                </Fade>
+                </Slide>
             </nav>
         )
     };
