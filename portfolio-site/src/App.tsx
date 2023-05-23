@@ -2,16 +2,16 @@
 import React from "react";
 
 // Stylesheet
-import "./App.scss";
+import "App.scss";
 
 // Components
-import Navbar from "./Components/Navbar/Navbar";
-import Jumbotron from "./Components/Jumbotron/Jumbotron";
-import Footer from "./Components/Footer/Footer";
-import CoverPage from "./Components/CoverPage/CoverPage";
-import AboutPage from "./Components/AboutPage/AboutPage";
-import PortfolioPage from "./Components/PortfolioPage/PortfolioPage";
-import ContactPage from "./Components/ContactPage/ContactPage";
+import Navbar from "Components/Navbar/Navbar";
+import Jumbotron from "Components/Jumbotron/Jumbotron";
+import Footer from "Components/Footer/Footer";
+import CoverPage from "Components/CoverPage/CoverPage";
+import AboutPage from "Pages/AboutPage/AboutPage";
+import PortfolioPage from "Components/PortfolioPage/PortfolioPage";
+import ContactPage from "Components/ContactPage/ContactPage";
 
 // Constants
 import { ImageCDNBaseURL } from "./constants";
