@@ -2,14 +2,14 @@
 import React from 'react';
 
 // Documentation: https://mui.com/ 
-import { Button, Dialog, DialogTitle, DialogContent, DialogActions } from '@mui/material';
+import { Button, Dialog, DialogTitle, DialogContent, DialogActions } from "@mui/material";
 
 // Stylesheet
-import styles from "./PortfolioPage.module.scss";
+import styles from "Pages/PortfolioPage/PortfolioPage.module.scss";
 
 // Components
-import Card from "../Card/Card";
-import PortfolioProjectCard from '../PortfolioProjectCard/PortfolioProjectCard';
+import Card from "Components/Card/Card";
+import PortfolioProjectCard from "Components/PortfolioProjectCard/PortfolioProjectCard";
 
 // Constants
 import { ImageCDNBaseURL } from '../../constants';

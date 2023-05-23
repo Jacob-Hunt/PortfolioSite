@@ -8,10 +8,10 @@ import "App.scss";
 import Navbar from "Components/Navbar/Navbar";
 import Jumbotron from "Components/Jumbotron/Jumbotron";
 import Footer from "Components/Footer/Footer";
-import CoverPage from "Components/CoverPage/CoverPage";
+import CoverPage from "Pages/CoverPage/CoverPage";
 import AboutPage from "Pages/AboutPage/AboutPage";
-import PortfolioPage from "Components/PortfolioPage/PortfolioPage";
-import ContactPage from "Components/ContactPage/ContactPage";
+import PortfolioPage from "Pages/PortfolioPage/PortfolioPage";
+import ContactPage from "Pages/ContactPage/ContactPage";
 
 // Constants
 import { ImageCDNBaseURL } from "./constants";
