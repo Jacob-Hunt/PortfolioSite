@@ -9,7 +9,7 @@ import GitHubIcon from "@mui/icons-material/GitHub";
 import styles from "./ContactPage.module.scss";
 
 // Components
-import Card from "../Card/Card";
+import Card from "Components/Card/Card";
 
 export default class ContactPage extends React.Component<
     // Declare props

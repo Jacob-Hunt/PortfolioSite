@@ -2,10 +2,10 @@
 import React from 'react';
 
 // Stylesheet
-import styles from "./CoverPage.module.scss";
+import styles from "Pages/CoverPage/CoverPage.module.scss";
 
 // Components
-import Card from "../Card/Card";
+import Card from "Components/Card/Card";
 
 // Constants
 import { ImageCDNBaseURL } from '../../constants';

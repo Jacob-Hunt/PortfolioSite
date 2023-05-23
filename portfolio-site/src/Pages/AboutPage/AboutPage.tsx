@@ -2,10 +2,10 @@
 import React from 'react';
 
 // Stylesheet
-import styles from "./AboutPage.module.scss";
+import styles from "Pages/AboutPage/AboutPage.module.scss";
 
 // Components
-import Card from "../Card/Card";
+import Card from 'Components/Card/Card';
 
 export default class AboutPage extends React.Component<
     // Declare props
