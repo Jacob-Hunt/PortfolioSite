@@ -1,5 +1,5 @@
 // Documentation: https://reactjs.org/
-import React from 'react';
+import React from "react";
 
 // Documentation: https://mui.com/ 
 import { Button, Dialog, DialogTitle, DialogContent, DialogActions } from "@mui/material";
@@ -10,6 +10,7 @@ import styles from "Pages/PortfolioPage/PortfolioPage.module.scss";
 // Components
 import Card from "Components/Card/Card";
 import PortfolioProjectCard from "Components/PortfolioProjectCard/PortfolioProjectCard";
+import Thumbnail from "Components/Thumbnail/Thumbnail";
 
 // Constants
 import { ImageCDNBaseURL } from '../../constants';
@@ -156,6 +157,10 @@ export default class PortfolioPage extends React.Component<
                             using Docker, thereby facilitating collaboration across various team members'
                             devices while reducing the chances of platform-specific hurdles.
                         </p>
+                        <Thumbnail
+                            url={ ImageCDNBaseURL + "v1684375215/flood-map-screenshot_nb2pcd.jpg" }
+                            alt="Screenshot of the map view within the Flood Map application."
+                        />
                         <p>
                             I believe that this project exemplifies my ability to lead a team effectively,
                             foster collaboration, and deliver a functional and visually appealing web
