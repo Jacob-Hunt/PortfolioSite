@@ -11,6 +11,7 @@ import styles from "Pages/PortfolioPage/PortfolioPage.module.scss";
 import Card from "SharedComponents/Card/Card";
 import PortfolioProjectCard from "SharedComponents/PortfolioProjectCard/PortfolioProjectCard";
 import Thumbnail from "SharedComponents/Thumbnail/Thumbnail";
+import PortfolioSiteDialogContent from "./Components/PortfolioSiteDialogContent/PortfolioSiteDialogContent";
 
 // Constants
 import { ImageCDNBaseURL } from '../../constants';
@@ -89,31 +90,7 @@ export default class PortfolioPage extends React.Component<
                         Portfolio Site
                     </DialogTitle>
                     <DialogContent dividers>
-                        <p>
-                            This static site is built using ReactJS, TypeScript, and NodeJS, and
-                            showcases my skills in designing and developing responsive, scrollable,
-                            and engaging user interfaces for web applications. With a mobile-first
-                            approach, the scrolling UI provides a seamless experience across
-                            devices, ensuring comfortable navigation on mobile, tablet, and desktop
-                            platforms. You can easily explore different sections either by scrolling
-                            or using the intuitive navigation bar.
-                        </p>
-                        <p>
-                            The source code for this project is available in the public <a
-                                href="https://github.com/Jacob-Hunt/PortfolioSite"
-                                target="_blank"
-                                rel="noreferrer"
-                            >
-                                GitHub repository
-                            </a>. I refactored major sections and UI elements into React components so as to
-                            maximize code modularity and reusability. In addition, to maintain a consistent
-                            and organized structure, I've employed SCSS modules for styling and tightly
-                            associated them with the component templates. While developing, I incorporated
-                            third-party modules like Material UI and ScrollSpy, allowing for faster
-                            development without compromising the original UX design. This modular approach
-                            significantly improved development efficiency and scalability while ensuring a
-                            cohesive user interface.
-                        </p>
+                        <PortfolioSiteDialogContent />
                     </DialogContent>
                     <DialogActions>
                         <Button onClick={ this.closeDialog }>Close</Button>
