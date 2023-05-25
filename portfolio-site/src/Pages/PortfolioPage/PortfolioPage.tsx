@@ -81,6 +81,8 @@ export default class PortfolioPage extends React.Component<
                     open={ this.state.CurrentOpenProject === Project.PORTFOLIO_SITE }
                     onClose={ this.closeDialog }
                     scroll="paper"
+                    maxWidth="xl"
+                    fullWidth
                     className={ styles.portfolioItemDialog }
                 >
                     <DialogTitle>
@@ -122,6 +124,8 @@ export default class PortfolioPage extends React.Component<
                     open={ this.state.CurrentOpenProject === Project.FLOOD_MAP }
                     onClose={ this.closeDialog }
                     scroll="paper"
+                    maxWidth="xl"
+                    fullWidth
                     className={ styles.portfolioItemDialog }
                 >
                     <DialogTitle>
@@ -138,10 +142,6 @@ export default class PortfolioPage extends React.Component<
                             meetings, fostering collaboration, and overseeing project management tools
                             like Kanban and GitHub for source control.
                         </p>
-                        <Thumbnail
-                            url={ ImageCDNBaseURL + "v1684375215/flood-map-screenshot_nb2pcd.jpg" }
-                            alt="Screenshot of the map view within the Flood Map application."
-                        />
                         <p>
                             In addition to my duties as team lead, I was responsible for implementing
                             the web application component of the project and, to achieve this, I utilized
@@ -161,10 +161,6 @@ export default class PortfolioPage extends React.Component<
                             using Docker, thereby facilitating collaboration across various team members'
                             devices while reducing the chances of platform-specific hurdles.
                         </p>
-                        <Thumbnail
-                            url={ ImageCDNBaseURL + "v1684979594/FloodMapAdminPage_a1njc6.jpg" }
-                            alt="Screenshot of the admin view within the Flood Map Application"
-                        />
                         <p>
                             I believe that this project exemplifies my ability to lead a team effectively,
                             foster collaboration, and deliver a functional and visually appealing web
@@ -175,6 +171,16 @@ export default class PortfolioPage extends React.Component<
                             achievements we made as a team and the impact that our prototype has the potential
                             to make.
                         </p>
+                        <div className={ styles.thumbnailContainer }>
+                            <Thumbnail
+                                url={ ImageCDNBaseURL + "v1684375215/flood-map-screenshot_nb2pcd.jpg" }
+                                alt="Screenshot of the map view within the Flood Map application."
+                            />
+                            <Thumbnail
+                                url={ ImageCDNBaseURL + "v1684979594/FloodMapAdminPage_a1njc6.jpg" }
+                                alt="Screenshot of the admin view within the Flood Map Application"
+                            />
+                        </div>
                     </DialogContent>
                     <DialogActions>
                         <Button onClick={ this.closeDialog }>Close</Button>
@@ -185,6 +191,8 @@ export default class PortfolioPage extends React.Component<
                     open={ this.state.CurrentOpenProject === Project.SOFTWARE_ENGINEERING }
                     onClose={ this.closeDialog }
                     scroll="paper"
+                    maxWidth="xl"
+                    fullWidth
                     className={ styles.portfolioItemDialog }
                 >
                     <DialogTitle>
