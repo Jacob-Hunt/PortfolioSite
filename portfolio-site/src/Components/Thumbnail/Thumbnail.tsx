@@ -2,13 +2,24 @@
 import React from 'react';
 
 // Documentation: https://mui.com/ 
-import { Dialog, DialogTitle, DialogContent } from "@mui/material";
+import { Dialog, DialogContent, Slide } from "@mui/material";
+import { TransitionProps } from '@mui/material/transitions';
 
 // Documentation: https://mui.com/material-ui/material-icons/
 import CloseIcon from '@mui/icons-material/Close';
 
 // Stylesheet
 import styles from './Thumbnail.module.scss';
+
+// Slide-in transition for full-sized image dialog
+const Transition = React.forwardRef(function Transition(
+    props: TransitionProps & {
+        children: React.ReactElement<any, any>;
+    },
+    ref: React.Ref<unknown>,
+) {
+    return <Slide direction="up" ref={ref} {...props} />;
+});
 
 export default class Thumbnail extends React.Component<
     // Declare props
@@ -43,6 +54,7 @@ export default class Thumbnail extends React.Component<
                 <Dialog
                     open={ this.state.isImageDisplayed }
                     onClose={ () => this.setState({ isImageDisplayed: false }) }
+                    TransitionComponent={ Transition }
                     fullScreen
                 >
                     <DialogContent>
