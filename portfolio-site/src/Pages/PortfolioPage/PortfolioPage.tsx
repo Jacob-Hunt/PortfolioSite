@@ -8,9 +8,9 @@ import { Button, Dialog, DialogTitle, DialogContent, DialogActions } from "@mui/
 import styles from "Pages/PortfolioPage/PortfolioPage.module.scss";
 
 // Components
-import Card from "Components/Card/Card";
-import PortfolioProjectCard from "Components/PortfolioProjectCard/PortfolioProjectCard";
-import Thumbnail from "Components/Thumbnail/Thumbnail";
+import Card from "SharedComponents/Card/Card";
+import PortfolioProjectCard from "SharedComponents/PortfolioProjectCard/PortfolioProjectCard";
+import Thumbnail from "SharedComponents/Thumbnail/Thumbnail";
 
 // Constants
 import { ImageCDNBaseURL } from '../../constants';

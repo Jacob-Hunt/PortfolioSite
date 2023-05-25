@@ -5,9 +5,9 @@ import React from "react";
 import "App.scss";
 
 // Components
-import Navbar from "Components/Navbar/Navbar";
-import Jumbotron from "Components/Jumbotron/Jumbotron";
-import Footer from "Components/Footer/Footer";
+import Navbar from "SharedComponents/Navbar/Navbar";
+import Jumbotron from "SharedComponents/Jumbotron/Jumbotron";
+import Footer from "SharedComponents/Footer/Footer";
 import CoverPage from "Pages/CoverPage/CoverPage";
 import AboutPage from "Pages/AboutPage/AboutPage";
 import PortfolioPage from "Pages/PortfolioPage/PortfolioPage";

@@ -5,7 +5,7 @@ import React from 'react';
 import styles from "Pages/CoverPage/CoverPage.module.scss";
 
 // Components
-import Card from "Components/Card/Card";
+import Card from "SharedComponents/Card/Card";
 
 // Constants
 import { ImageCDNBaseURL } from '../../constants';
