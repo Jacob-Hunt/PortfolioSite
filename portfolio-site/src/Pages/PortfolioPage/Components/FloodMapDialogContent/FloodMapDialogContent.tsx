@@ -26,10 +26,15 @@ export default class FloodMapDialogContent extends React.Component<
                     For my senior design project at university, I had the privilege of leading a
                     team of student developers in creating a proof-of-concept prototype for a
                     technology system that combines data from a network of solar-powered water
-                    level sensors with an open-source topographic dataset in order to generate a
-                    real-time weather map of floodwater levels. As the team lead, I took on
-                    multiple responsibilities, including facilitating meetings, fostering
-                    collaboration, and overseeing project management tools like <a
+                    level sensors with the <a
+                        href="https://www.mapzen.com/blog/terrain-tile-service/"
+                        target="_blank"
+                        rel="noreferrer"
+                    >
+                        Mapzen topographic dataset
+                    </a> in order to generate a real-time weather map of floodwater levels. As the
+                    team lead, I took on multiple responsibilities, including facilitating meetings,
+                    fostering collaboration, and overseeing project management tools like <a
                         href="https://www.atlassian.com/agile/kanban"
                         target="_blank"
                         rel="noreferrer"
