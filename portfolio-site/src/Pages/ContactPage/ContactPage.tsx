@@ -2,6 +2,7 @@
 import React from 'react';
 
 // Documentation: https://mui.com/material-ui/material-icons/
+import EmailIcon from '@mui/icons-material/Email';
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import GitHubIcon from "@mui/icons-material/GitHub";
 
@@ -26,9 +27,13 @@ export default class ContactPage extends React.Component<
                 <Card className={ styles.contactCard }>
                     <h1>Contact</h1>
                     <hr />
-                    <h4>Email: <a href="mailto:jacobhuntemail@gmail.com">jacobhuntemail@gmail.com</a></h4>
-                    <h4>Phone: <a href="tel:5402233701">540-223-3701</a></h4>
                     <div className={ styles.socialLinksContainer }>
+                        <a
+                            href="mailto:jacobhuntdevelopment@gmail.com"
+                            className={ styles.iconLink }
+                        >
+                            <EmailIcon fontSize="large" />
+                        </a>
                         <a
                             href="https://www.linkedin.com/in/jhweb/"
                             className={ styles.iconLink }
