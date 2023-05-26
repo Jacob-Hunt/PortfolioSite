@@ -24,8 +24,7 @@ export default class SoftwareEngineeringDialogContent extends React.Component<
                         rel="noreferrer"
                     >
                         C#
-                    </a>
-                    application with an integrated <a
+                    </a> application with an integrated <a
                         href="https://www.microsoft.com/en-us/sql-server/sql-server-2022"
                         target="_blank"
                         rel="noreferrer"
