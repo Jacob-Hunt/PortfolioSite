@@ -5,7 +5,7 @@ import React from 'react';
 import styles from "Pages/AboutPage/AboutPage.module.scss";
 
 // Components
-import Card from 'Components/Card/Card';
+import Card from 'SharedComponents/Card/Card';
 
 export default class AboutPage extends React.Component<
     // Declare props
