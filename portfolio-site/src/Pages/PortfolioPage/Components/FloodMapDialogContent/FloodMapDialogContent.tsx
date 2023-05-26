@@ -29,8 +29,19 @@ export default class FloodMapDialogContent extends React.Component<
                     level sensors with an open-source topographic dataset in order to generate a
                     real-time weather map of floodwater levels. As the team lead, I took on
                     multiple responsibilities, including facilitating meetings, fostering
-                    collaboration, and overseeing project management tools like Kanban and
-                    GitHub for source control. Two figures showing high-level views of the
+                    collaboration, and overseeing project management tools like <a
+                        href="https://www.atlassian.com/agile/kanban"
+                        target="_blank"
+                        rel="noreferrer"
+                    >
+                        Kanban
+                    </a> and <a
+                        href="https://github.com/"
+                        target="_blank"
+                        rel="noreferrer"
+                    >
+                        GitHub
+                    </a> for source control. Two figures showing high-level views of the
                     architecture for the web application and sensor modules are shown below.
                 </p>
                 <div className={ styles.thumbnailContainer }>
@@ -47,10 +58,54 @@ export default class FloodMapDialogContent extends React.Component<
                     In addition to my duties as team lead, I was responsible for implementing
                     the web application component of the project such that other team members
                     could focus on construction of the sensor network. To achieve this, I
-                    utilized a PERN stack (PostgreSQL, Express, React, and Node) along with
-                    TypeScript and SCSS. On the front end, I utilized React to build an
-                    interactive user interface, incorporating map components using Leaflet.js
-                    and React-Leaflet. I also utilized Material UI components to build an
+                    utilized a PERN stack (<a
+                        href="https://www.postgresql.org/"
+                        target="_blank"
+                        rel="noreferrer"
+                    >
+                        PostgreSQL
+                    </a>, <a
+                        href="https://expressjs.com/"
+                        target="_blank"
+                        rel="noreferrer"
+                    >
+                        Express
+                    </a>, <a
+                        href="https://react.dev/"
+                        target="_blank"
+                        rel="noreferrer"
+                    >
+                        React
+                    </a>, and <a
+                        href="https://nodejs.org/en"
+                        target="_blank"
+                        rel="noreferrer"
+                    >
+                        Node
+                    </a>) along with <a
+                        href="https://www.typescriptlang.org/"
+                        target="_blank"
+                        rel="noreferrer"
+                    >TypeScript</a> and <a
+                        href="https://sass-lang.com/"
+                        target="_blank"
+                        rel="noreferrer"
+                    >SASS</a>. On the front end, I utilized React to build an
+                    interactive user interface, incorporating map components using <a
+                        href="https://leafletjs.com/"
+                        target="_blank"
+                        rel="noreferrer"
+                    >Leaflet.js</a> and <a
+                        href="https://react-leaflet.js.org/"
+                        target="_blank"
+                        rel="noreferrer"
+                    >React-Leaflet</a>. I also utilized <a
+                        href="https://mui.com/"
+                        target="_blank"
+                        rel="noreferrer"
+                    >
+                        Material UI
+                    </a> components to build an
                     administrator dashboard that other team members could use to register
                     sensors with the map application. The two screenshots below showcase the
                     map view and administrator dashboard for the web application.
@@ -67,15 +122,26 @@ export default class FloodMapDialogContent extends React.Component<
                 </div>
                 <p>
                     Emphasizing responsiveness, all frontend pages were fully optimized for mobile
-                    devices using CSS Flexbox to dynamically adapt UI components based on screen
-                    dimensions. Efficient page routing was achieved through the implementation of
-                    React Router. The core of the web application was a RESTful ExpressJS API,
-                    serving as the vital link between the PostgreSQL database, the React front end,
-                    and the water level sensor modules. This API provided seamless integration for
-                    the sensor modules to transmit water level readings to the database via HTTP
-                    requests, as well as for the React server to obtain these readings. Finally,
-                    to ensure cross-platform compatibility, I containerized the PERN application
-                    using Docker, thereby facilitating collaboration across various team members'
+                    devices using <a
+                        href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Basic_Concepts_of_Flexbox"
+                        target="_blank"
+                        rel="noreferrer"
+                    >CSS Flexbox</a> to dynamically adapt UI components based on screen
+                    dimensions. Due to the need for separate URL routes for the map view and the
+                    admin page, routing was implemented via the use of <a
+                        href="https://reactrouter.com/en/main"
+                        target="_blank"
+                        rel="noreferrer"
+                    >React Router</a>. A RESTful ExpressJS API, served as the interface between the
+                    PostgreSQL database, the React front end, and the water level sensor modules.
+                    This API provided seamless integration for the sensor modules to transmit water
+                    level readings to the database via HTTP requests, as well as for the React server
+                    to obtain these readings. Finally, to ensure cross-platform compatibility, I
+                    containerized the PERN application using <a
+                        href="https://www.docker.com/"
+                        target="_blank"
+                        rel="noreferrer"
+                    >Docker</a>, thereby facilitating collaboration across various team members'
                     devices while reducing the chances of platform-specific hurdles.
                 </p>
                 <p>
