@@ -152,9 +152,9 @@ export default class FloodMapDialogContent extends React.Component<
                 <p>
                     I believe that this project exemplifies my ability to lead a team effectively,
                     foster collaboration, and deliver a functional and visually appealing web
-                    application, and that the combination of my technical proficiency in the PERN stack,
-                    React, Leaflet.js, and Material UI allowed me to create an intuitive user
-                    experience. I am immensely proud of the achievement that we made as a team
+                    application, and that the combination of my technical proficiency in the PERN
+                    stack, React, Leaflet.js, and Material UI allowed me to create an intuitive
+                    user experience. I am proud of the achievement that we made as a team
                     in integrating a wide range of diverse technologies into a cohesive and
                     innovative system that, if implemented at scale, could have the ability to
                     provide life-saving flood information in a highly accessible manner.
