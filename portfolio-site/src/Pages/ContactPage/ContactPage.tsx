@@ -33,6 +33,7 @@ export default class ContactPage extends React.Component<
                             className={ styles.iconLink }
                         >
                             <EmailIcon fontSize="large" />
+                            <h4>Email</h4>
                         </a>
                         <a
                             href="https://www.linkedin.com/in/jhweb/"
@@ -41,6 +42,7 @@ export default class ContactPage extends React.Component<
                             rel="noreferrer"
                         >
                             <LinkedInIcon fontSize="large" />
+                            <h4>LinkedIn</h4>
                         </a>
                         <a
                             href="https://github.com/Jacob-Hunt/"
@@ -49,6 +51,7 @@ export default class ContactPage extends React.Component<
                             rel="noreferrer"
                         >
                             <GitHubIcon fontSize="large" />
+                            <h4>GitHub</h4>
                         </a>
                     </div>
                 </Card>
