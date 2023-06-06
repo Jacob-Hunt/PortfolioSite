@@ -4,7 +4,6 @@ import React from 'react';
 // Documentation: https://mui.com/material-ui/material-icons/
 import EmailIcon from '@mui/icons-material/Email';
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
-import GitHubIcon from "@mui/icons-material/GitHub";
 
 // Stylesheet
 import styles from "./ContactPage.module.scss";
@@ -43,15 +42,6 @@ export default class ContactPage extends React.Component<
                         >
                             <LinkedInIcon fontSize="large" />
                             <h4>LinkedIn</h4>
-                        </a>
-                        <a
-                            href="https://github.com/Jacob-Hunt/"
-                            className={ styles.iconLink }
-                            target="_blank"
-                            rel="noreferrer"
-                        >
-                            <GitHubIcon fontSize="large" />
-                            <h4>GitHub</h4>
                         </a>
                     </div>
                 </Card>

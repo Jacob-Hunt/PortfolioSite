@@ -53,6 +53,12 @@ export default class PortfolioPage extends React.Component<
 
                 <div className={ styles.portfolioItems }>
                     <PortfolioProjectCard
+                        thumbnailURL={ ImageCDNBaseURL + "v1500522859/scripts_thumbnail_wb81kg.jpg" }
+                        label="GitHub Source Code"
+                        description="Publically available source code that I have written utilizing a variety of programming languages and frameworks."
+                        onClick={ () => window.open("https://www.github.com/jacob-hunt", "_blank", "noreferrer")}
+                    />
+                    <PortfolioProjectCard
                         thumbnailURL={ ImageCDNBaseURL + "v1684364958/portfolio-site_ucqoee.jpg" }
                         label="Portfolio Page"
                         description="The website that you are currently viewing. A static site built using ReactJS, NodeJS, and TypeScript."
@@ -69,11 +75,12 @@ export default class PortfolioPage extends React.Component<
                         onClick={ () => this.setState({ CurrentOpenProject: Project.FLOOD_MAP })}
                     />
                     <PortfolioProjectCard
-                        thumbnailURL={ ImageCDNBaseURL + "v1500522859/scripts_thumbnail_wb81kg.jpg" }
-                        label="Software Engineering Term Project"
+                        thumbnailURL={ ImageCDNBaseURL + "v1686082677/se-diagram_hrt2we.jpg" }
+                        label="SE Term Project"
                         description={
-                            `A console-based C# application with an integrated Microsoft SQL
-                             Server database to simulate a hotel reservation system.`
+                            `Acted a leader for a small, agile-based team for the design and
+                             implementation of a console-based C# application with an integrated
+                             Microsoft SQL Server database.`
                         }
                         onClick={ () => this.setState({ CurrentOpenProject: Project.SOFTWARE_ENGINEERING })}
                     />
