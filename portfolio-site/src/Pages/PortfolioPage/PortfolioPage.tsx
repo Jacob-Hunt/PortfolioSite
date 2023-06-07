@@ -78,7 +78,7 @@ export default class PortfolioPage extends React.Component<
                         thumbnailURL={ ImageCDNBaseURL + "v1686082677/se-diagram_hrt2we.jpg" }
                         label="SE Term Project"
                         description={
-                            `Acted a leader for a small, agile-based team for the design and
+                            `A project in which I led a small agile team in the design and
                              implementation of a console-based C# application with an integrated
                              Microsoft SQL Server database.`
                         }
