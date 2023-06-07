@@ -27,7 +27,7 @@ export default class CoverPage extends React.Component<
                     <hr />
                     <h4>
                         Computer Programmer, Embedded Systems Engineer, and Web Developer with
-                        a passion for collaborative agile development, creating intuitive user
+                        a passion for collaborative software development, creating intuitive user
                         experiences, and writing well-organized, readable, and maintainable code.
                     </h4>
                 </Card>
