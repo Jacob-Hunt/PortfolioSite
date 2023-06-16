@@ -35,9 +35,30 @@ export default class AboutPage extends React.Component<
                     </ul>
                     <h2>Skills</h2>
                     <ul>
-                        <li>Languages: Assembly (ARM, x86), C, C++, C#, HTML/CSS/SASS, Java, JavaScript, PLC Languages (LL, ST, FBD), Python, SQL, Typescript</li>
-                        <li>Frameworks: .NET, Express, Node, PostgreSQL, React, Vue</li>
-                        <li>General: Agile Development, Team Leadership, Full-Stack Web Development, Relational Database Management Systems, Programmable Logic Controllers, Electronic Circuits</li>
+                        <li>
+                            <span className="bold">Programming Languages: </span>
+                            JavaScript, TypeScript, Python, Java, C, C++, C#, x86 Assembly, ARM Assembly
+                        </li>
+                        <li>
+                            <span className="bold">Web Development: </span>
+                            React, Vue, HTML, CSS, SASS, Node.js, Express.js, .NET, Leaflet.js, jQuery, Bootstrap
+                        </li>
+                        <li>
+                            <span className="bold">PLC Programming: </span>
+                            Ladder Logic, Structured Text, Function Block Diagram, Modicon, Unity Pro
+                        </li>
+                        <li>
+                            <span className="bold">Databases: </span>
+                            PostgreSQL, Microsoft SQL Server, Oracle, Snowflake
+                        </li>
+                        <li>
+                            <span className="bold">Version Control: </span>
+                            Git, GitHub
+                        </li>
+                        <li>
+                            <span className="bold">Soft Skills: </span>
+                            Agile Development, Team Leadership, Written and Oral Communication, Code Review
+                        </li>
                     </ul>
                 </Card>
             </div>
